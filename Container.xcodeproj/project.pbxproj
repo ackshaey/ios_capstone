@@ -13,6 +13,13 @@
 		682233661AC0CFC500A7B613 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682233651AC0CFC500A7B613 /* Images.xcassets */; };
 		682233691AC0CFC500A7B613 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 682233671AC0CFC500A7B613 /* LaunchScreen.xib */; };
 		682233751AC0CFC500A7B613 /* ContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682233741AC0CFC500A7B613 /* ContainerTests.swift */; };
+		682233801AC0D01200A7B613 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822337E1AC0D01200A7B613 /* MapViewController.swift */; };
+		682233811AC0D01200A7B613 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6822337F1AC0D01200A7B613 /* MapViewController.xib */; };
+		682233841AC0D02900A7B613 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682233821AC0D02900A7B613 /* TableViewController.swift */; };
+		682233851AC0D02900A7B613 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 682233831AC0D02900A7B613 /* TableViewController.xib */; };
+		682233881AC0D04100A7B613 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682233861AC0D04100A7B613 /* SliderViewController.swift */; };
+		682233891AC0D04100A7B613 /* SliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 682233871AC0D04100A7B613 /* SliderViewController.xib */; };
+		689EC3671AC236E300A965FF /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689EC3661AC236E300A965FF /* Annotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		6822336E1AC0CFC500A7B613 /* ContainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		682233731AC0CFC500A7B613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		682233741AC0CFC500A7B613 /* ContainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerTests.swift; sourceTree = "<group>"; };
+		6822337E1AC0D01200A7B613 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6822337F1AC0D01200A7B613 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		682233821AC0D02900A7B613 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		682233831AC0D02900A7B613 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		682233861AC0D04100A7B613 /* SliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		682233871AC0D04100A7B613 /* SliderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderViewController.xib; sourceTree = "<group>"; };
+		689EC3661AC236E300A965FF /* Annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +94,16 @@
 				6822335E1AC0CFC500A7B613 /* AppDelegate.swift */,
 				682233601AC0CFC500A7B613 /* ViewController.swift */,
 				682233621AC0CFC500A7B613 /* Main.storyboard */,
+				6822337E1AC0D01200A7B613 /* MapViewController.swift */,
+				6822337F1AC0D01200A7B613 /* MapViewController.xib */,
+				682233821AC0D02900A7B613 /* TableViewController.swift */,
+				682233831AC0D02900A7B613 /* TableViewController.xib */,
+				682233861AC0D04100A7B613 /* SliderViewController.swift */,
+				682233871AC0D04100A7B613 /* SliderViewController.xib */,
 				682233651AC0CFC500A7B613 /* Images.xcassets */,
 				682233671AC0CFC500A7B613 /* LaunchScreen.xib */,
 				6822335C1AC0CFC500A7B613 /* Supporting Files */,
+				689EC3661AC236E300A965FF /* Annotation.swift */,
 			);
 			path = Container;
 			sourceTree = "<group>";
@@ -195,6 +216,9 @@
 				682233641AC0CFC500A7B613 /* Main.storyboard in Resources */,
 				682233691AC0CFC500A7B613 /* LaunchScreen.xib in Resources */,
 				682233661AC0CFC500A7B613 /* Images.xcassets in Resources */,
+				682233851AC0D02900A7B613 /* TableViewController.xib in Resources */,
+				682233811AC0D01200A7B613 /* MapViewController.xib in Resources */,
+				682233891AC0D04100A7B613 /* SliderViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +237,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				682233611AC0CFC500A7B613 /* ViewController.swift in Sources */,
+				682233881AC0D04100A7B613 /* SliderViewController.swift in Sources */,
+				682233801AC0D01200A7B613 /* MapViewController.swift in Sources */,
 				6822335F1AC0CFC500A7B613 /* AppDelegate.swift in Sources */,
+				689EC3671AC236E300A965FF /* Annotation.swift in Sources */,
+				682233841AC0D02900A7B613 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +435,7 @@
 				6822337A1AC0CFC500A7B613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6822337B1AC0CFC500A7B613 /* Build configuration list for PBXNativeTarget "ContainerTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +444,7 @@
 				6822337D1AC0CFC500A7B613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
